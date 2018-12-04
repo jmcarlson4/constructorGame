@@ -1,0 +1,22 @@
+{
+  "name": "constructorgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcarlson4/constructorGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcarlson4/constructorGame/issues"
+  },
+  "homepage": "https://github.com/jmcarlson4/constructorGame#readme",
+  "dependencies": {
+    "node-fs": "^0.1.7"
+  }
+}
