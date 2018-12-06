@@ -1,3 +1,6 @@
-var word = require("./word.js");
-var fs = ("fs");
 
+var Letters = require("./letter.js");
+
+var letter = new Letters();
+
+letter.prompts()

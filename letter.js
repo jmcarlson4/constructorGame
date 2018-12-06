@@ -1,25 +1,35 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
 
-var lettersGuessed = [];
 
-function Letters(spaces, letter) {
+
+function Letters(lettersGuessed, spaces, letter) {
+    this.lettersGuessed = []; 
     this.spaces = "_";
 
     this.letter = letter;
+    this.prompts = function(){
+        return inquirer.prompt([
+             {
+                 type: "input",
+                 name: "choice",
+                 message: "Guess a Letter"
+             }
+         ]).then(function (action) {
+         console.log(action);
+         });
+     }
+
 
     if (letter === lettersGuessed) {
-        this.letter;
+       return this.letter;
     }
-    else (letter !== lettersGuessed) {
-        this.spaces;
+    if (letter !== lettersGuessed) {
+        return this.spaces;
     }
 
 };
 
+module.exports=Letters;
 
 
-
-
-
-module.exports = letter;

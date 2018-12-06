@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jmcarlson4/constructorGame#readme",
   "dependencies": {
+    "chalk-pipe": "^2.0.0",
     "node-fs": "^0.1.7"
   }
 }
